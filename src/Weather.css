@@ -1,0 +1,22 @@
+.weather-app-wrapper {
+  max-width: 700px;
+  margin: 10px auto;
+}
+.weather-forecast {
+  text-align: center;
+  color: white;
+}
+
+.weather-forecast-date {
+  font-size: 25px;
+  color: white;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.7;
+}
+
+.weather-forecast-temperatures {
+  font-size: 20px;
+  color: white;
+}
