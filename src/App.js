@@ -18,7 +18,7 @@ export default function App() {
           <div className="card-body"></div>
           <form id="search-form">
             <div className="row">
-              <div className="col-7">
+              <div className="col-9">
                 <input
                   type="search"
                   placeholder="Search for city..."
@@ -46,23 +46,30 @@ export default function App() {
           <br />
           <h1>{weatherData.city}</h1>
           <div>
-            <span>
+            <div className="float-left">
               <strong>{weatherData.temperature}</strong>
+            </div>
+            <span className="units">
+              <a href="/">°C</a> | <a href="/">°F</a>
             </span>
-            <span>°C</span>
             <div className="row">
-              <div className="col-4">
+              <div className="col-2">
                 <ul>
                   <li>{weatherData.description}</li>
                   <li>{weatherData.date}</li>
                 </ul>
               </div>
 
-              <div className="col-4">
-                <img src={weatherData.imgUrl} id="icon" alt="sunny" />
+              <div className="col-2">
+                <img
+                  src={weatherData.imgUrl}
+                  id="icon"
+                  alt="sunny"
+                  className="float-left"
+                />
               </div>
 
-              <div className="col-4">
+              <div className="col-2">
                 <ul>
                   <li className="temperature">
                     <span>Humidity:</span> <span>{weatherData.humidity}%</span>
@@ -76,7 +83,7 @@ export default function App() {
           </div>
         </div>
         <div>
-          <a href="https://github.com/Lika-77/weatherApp.git">
+          <a href="https://github.com/Lika-77/react-weather-app">
             Open-source code
           </a>
           by Anzhelika Kovtun
