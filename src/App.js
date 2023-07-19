@@ -53,14 +53,14 @@ export default function App() {
               <a href="/">°C</a> | <a href="/">°F</a>
             </span>
             <div className="row">
-              <div className="col-2">
+              <div className="col-6">
                 <ul>
                   <li>{weatherData.description}</li>
                   <li>{weatherData.date}</li>
                 </ul>
               </div>
 
-              <div className="col-2">
+              <div className="col-6">
                 <img
                   src={weatherData.imgUrl}
                   id="icon"
@@ -69,7 +69,7 @@ export default function App() {
                 />
               </div>
 
-              <div className="col-2">
+              <div className="col-6">
                 <ul>
                   <li className="temperature">
                     <span>Humidity:</span> <span>{weatherData.humidity}%</span>
