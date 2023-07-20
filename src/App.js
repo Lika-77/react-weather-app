@@ -18,7 +18,7 @@ export default function App() {
           <div className="card-body"></div>
           <form id="search-form">
             <div className="row">
-              <div className="col-9">
+              <div className="col-6">
                 <input
                   type="search"
                   placeholder="Search for city..."
@@ -48,28 +48,30 @@ export default function App() {
           <div>
             <div className="float-left">
               <strong>{weatherData.temperature}</strong>
+
+              <span className="units">
+                <a href="/">°C</a> | <a href="/">°F</a>
+              </span>
             </div>
-            <span className="units">
-              <a href="/">°C</a> | <a href="/">°F</a>
-            </span>
+            <br />
             <div className="row">
-              <div className="col-6">
+              <div className="col-4">
                 <ul>
                   <li>{weatherData.description}</li>
                   <li>{weatherData.date}</li>
                 </ul>
               </div>
 
-              <div className="col-6">
+              <div className="col-4">
                 <img
                   src={weatherData.imgUrl}
                   id="icon"
                   alt="sunny"
-                  className="float-left"
+                  className="float-right"
                 />
               </div>
 
-              <div className="col-6">
+              <div className="col-4">
                 <ul>
                   <li className="temperature">
                     <span>Humidity:</span> <span>{weatherData.humidity}%</span>

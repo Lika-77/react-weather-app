@@ -5,6 +5,7 @@ import App from "./App";
 import "./Weather.css";
 import "./App.css";
 import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
