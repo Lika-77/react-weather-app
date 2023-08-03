@@ -55,11 +55,14 @@ li:first-letter {
   color: rgb(3, 3, 3);
   text-decoration: none;
 }
-#units {
+.App .degrees {
+  font-size: 40px;
+}
+.App .units {
   color: rgb(0, 0, 0);
   font-size: 17px;
   position: relative;
-  top: -17px;
+  top: -18px;
 }
 #celsius {
   text-decoration: none;
