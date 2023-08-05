@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React from "react";
+
 import "./Weather.css";
 import Weather from "./Weather";
-import WeatherInfo from "./WeatherInfo";
 
 export default function App() {
   return (
@@ -13,6 +12,7 @@ export default function App() {
           <a
             href="https://github.com/Lika-77/react-weather-app"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Open-source code
           </a>
