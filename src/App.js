@@ -16,6 +16,15 @@ export default function App() {
             rel="noopener noreferrer"
           >
             Open-source code
+          </a>{" "}
+          and hosted on
+          <a
+            href="https://stupendous-fenglisu-8efe15.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Netlify
           </a>
         </footer>
       </div>
