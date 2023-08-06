@@ -9,6 +9,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Kyiv" />
         <footer>
+          This project was coded by Anzhelika Kovtun {""}
           <a
             href="https://github.com/Lika-77/react-weather-app"
             target="_blank"
@@ -16,7 +17,6 @@ export default function App() {
           >
             Open-source code
           </a>
-          by Anzhelika Kovtun
         </footer>
       </div>
     </div>
