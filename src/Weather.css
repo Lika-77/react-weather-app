@@ -20,3 +20,9 @@
   font-size: 20px;
   color: white;
 }
+canvas {
+  margin-left: 45px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 80px;
+}

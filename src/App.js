@@ -2,9 +2,6 @@ import React from "react";
 
 import "./Weather.css";
 import Weather from "./Weather";
-import WeatherInfo from "./WeatherInfo";
-import WeatherIcon from "./WeatherIcon";
-import WeatherTemperature from "./WeatherTemperature";
 
 export default function App() {
   return (
