@@ -17,6 +17,8 @@
   margin-bottom: 10px;
   display: inline-block;
   width: 80px;
+  position: relative;
+  top: -20px;
 }
 
 .WeatherInfo h1 {
